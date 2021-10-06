@@ -1,0 +1,19 @@
+table {
+    font-size: 8px;
+}
+
+td {
+    width: 10px;
+    border: 1px solid black;
+    color: red;
+}
+
+tr {
+    height: 10px;
+}
+
+.row {
+    text-align: center;
+    width: 80%;
+    margin: 15px auto;
+}
