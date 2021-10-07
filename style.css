@@ -1,19 +1,36 @@
 table {
-    font-size: 8px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 td {
-    width: 10px;
+    width: 20px;
     border: 1px solid black;
-    color: red;
+    color: gray;
 }
 
 tr {
-    height: 10px;
+    height: 20px;
 }
 
 .row {
     text-align: center;
     width: 80%;
     margin: 15px auto;
+}
+
+#counters {
+    visibility: hidden;
+}
+
+#generations {
+    width: 200px;
+    margin: 0;
+    float: left;
+    text-align: center;
+    font-size: 22px;
+}
+#gen{
+    height: 30px;
+    background-color: yellow;
 }

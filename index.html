@@ -3,21 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="row">
+    <div class="container">
         <label for="rows">Rows</label><input type="text" id="rows">
         <label for="cols">Columns</label><input type="text" id="cols">
-        <button type="submit" id="create">Create board</button>
+        <button type="submit" id="random">Random board</button>
+        <button type="submit" id="blank">Blank board</button>
         <button type="submit" id="pause">Pause</button>
+       <!-- <button type="submit" id="save">Save current</button>
+        <button type="submit" id="load">Load latest</button> -->
     </div>
     <div class="row">
         <div id="target">
 
         </div>
+
     </div>
+    <div class="row">
+        <div id="counters" >
+            <div id="generations" class="col">
+                <p>Generation:</p>
+                <p id="gen"></p>
+            </div>
+            <div id="liveCells" class="col">
+                <p>Living cells:</p>
+                <p id="live"></p>
+            </div>
+        </div>
+    </div>
+
 
 
 
